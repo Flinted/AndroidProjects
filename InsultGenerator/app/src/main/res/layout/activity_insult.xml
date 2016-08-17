@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/insulter"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="195dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/mild"
+        android:text="Mild"
+        style="@style/button"
+        android:background="@drawable/button"
+        />
+    <Button
+        android:id="@+id/mod"
+        android:text="Moderate"
+        style="@style/button"
+        android:background="@drawable/button"
+        />
+    <Button
+        android:id="@+id/mean"
+        android:text="Mean"
+        style="@style/button"
+        android:background="@drawable/button"
+        />
+    <Button
+        android:id="@+id/nice"
+        android:text="Nice"
+        style="@style/button"
+        android:background="@drawable/button"
+        />
+</LinearLayout>

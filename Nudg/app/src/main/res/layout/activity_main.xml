@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:text="Nudg, A little reminder"
+        android:textColor="#2EC4B6"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/button"
+        style="@style/button_text"
+        android:background="@drawable/button"
+        android:text="Written Nudg"
+        />
+    <Button
+        android:id="@+id/button"
+        style="@style/button_text"
+        android:background="@drawable/button"
+        android:text="Audio Nudg"
+        />
+    <Button
+        android:id="@+id/button"
+        style="@style/button_text"
+        android:background="@drawable/button"
+        android:text="Visual Nudg"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="screen_name">Anne Droid. Private detective.</string>
+    <string name="tag_line">Did someone take your case? Any case taken. Luggage specialist.
+    Based at Luton beside Caffe Nero.</string>
+    <string name="disc_line">I do not have access to the airport, \n other than my office.</string>
+</resources>
